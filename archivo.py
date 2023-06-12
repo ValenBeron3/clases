@@ -1,0 +1,6 @@
+archivo=open("archivo.txt", 'w')
+archivo.write("hola mundo")
+archivo.close()
+archivo=open("archivo.txt",'a')
+archivo.write("santiago", "julian","valentin")
+archivo.close()
